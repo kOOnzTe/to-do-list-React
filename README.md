@@ -1,8 +1,8 @@
-# React + Vite
+# Daily To-Do-List with React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### This List includes the current time and date with "add", "delete", "move up", "move down", and "checklist(done)" features.
 
-Currently, two official plugins are available:
+![Jan-15-2024 23-30-04](https://github.com/kOOnzTe/to-do-list/assets/53222156/75b1e7b0-d457-4b3f-8a38-63e7e73c884e)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+#### In my view, this project might be the easiest and most solid React project that includes important React and Javascript fundamentals. 
+
