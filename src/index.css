@@ -1,0 +1,107 @@
+/* DigitalClock */
+body{
+  margin: 0;
+  padding: 0;
+
+  background-image: url(./assets/colorful-background-vivid-colors-wallpaper-preview.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  align-items: center;
+}
+
+
+.clock-container {
+  backdrop-filter: blur(5px);
+  width: 100vw;
+  padding: 10px 0;
+}
+.clock {
+  color: rgb(210, 198, 198);
+  font-size: 2rem;
+  font-weight: bold;
+  font-family: monospace;
+  text-align: center;
+  text-shadow: 3px 3px 5px hsla(0, 0%, 0%, 0.75);
+}
+
+/* ToDoList */
+
+.to-do-list {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin-top: 100px;
+}
+h1 {
+  font-size: 3rem;
+}
+h3 {
+  font-size: 1rem;
+  text-align: center;
+  color: rgba(255, 17, 0, 0.599);
+}
+button {
+  font-size: 1.7rem;
+  font-weight: bold;
+  padding: 10px 20px;
+  color: rgb(252, 252, 252);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.5 ease;
+}
+
+.add-button {
+  background-color: hsl(228, 55%, 47%);
+}
+.add-button:hover {
+  background-color: hsl(227, 40%, 28%);
+  transition: background-color 0.5 ease;
+}
+
+.delete-button {
+  background-color: hsl(0, 81%, 19%);
+}
+.delete-button:hover {
+  background-color: hsl(0, 81%, 19%);
+}
+
+input[type="text"] {
+  font-size: 1.4rem;
+  padding: 10px;
+  margin: 15px;
+  border: 2px solid hsla(0, 0%, 80%, 0.5);
+  border-radius: 5px;
+  color:blueviolet
+}
+
+ol { 
+  padding: 0;
+}
+li {
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 15px;
+  background-color: hsla(0, 78%, 53%, 0.573);
+  margin-bottom: 10px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+.text {
+  flex: 1;
+}
+.delete-button, .move-button {
+  padding: 8px 12px;
+  font-size: 1.4rem;
+  margin-left: 10px;
+  background-color: hsla(0, 92%, 48%, 0.446);
+}
+.delete-button:hover, .move-button:hover {
+  background-color: hsl(227, 40%, 28%);
+  transition: background-color 0.5 ease;
+}
